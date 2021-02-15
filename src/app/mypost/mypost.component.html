@@ -1,0 +1,15 @@
+<!-- <div class="post">
+  <h2>
+    Post title
+  </h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur quasi quam, labore amet non delectus facere earum libero, aut minus sunt? Nihil odit dignissimos deleniti sapiente, dolore repudiandae consequatur?</p>
+
+</div> -->
+<div>
+  <h2>{{post.title}}</h2>
+  <p>{{post.text}}</p>
+  <button (click)="removePost()"></button>
+  <ng-content>
+
+  </ng-content>
+</div>
